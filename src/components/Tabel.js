@@ -34,7 +34,7 @@ function Tabel() {
     const newList = [...barangList];
     newList[editIndex] = editData;
     setBarangList(newList);
-    setEditIndex(null); // keluar dari mode edit
+    setEditIndex(null);
   }
 
   return (
